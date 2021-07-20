@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { signUp, signIn } from "./controllers/userController.js";
-import { changeEvent, listFinancial, sumFinancials } from "./controllers/finalcial-events.js";
+import { changeEvent, listFinancial, sumFinancials } from "./controllers/financialController.js";
 
 const app = express();
 app.use(cors());

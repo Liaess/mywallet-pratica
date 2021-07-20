@@ -1,5 +1,11 @@
-
 import jwt from "jsonwebtoken";
+
+async function checkType(type){
+    if (!['INCOME', 'OUTCOME'].includes(type)) {
+      return null
+    }
+}
+
 async function checkToken(user, token){
     try {
       user = jwt.verify(token, process.env.JWT_SECRET);
@@ -9,4 +15,4 @@ async function checkToken(user, token){
     return user
 }
 
-export { checkToken }
+export { checkToken, checkType}

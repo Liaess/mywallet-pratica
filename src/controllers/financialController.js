@@ -1,5 +1,4 @@
-import { checkToken } from "../services/checkToken.js";
-import { checkType } from "../services/checkType.js";
+import { checkToken, checkType } from "../services/financialsServices.js"
 import { createFinancial } from "../repositories/createFinancial.js";
 import { listAllFinancials } from "../repositories/listAllFinancials.js"
 

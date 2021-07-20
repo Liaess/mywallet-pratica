@@ -1,5 +1,4 @@
-import { authenticateSignUp } from "../services/authenticateSignUp.js";
-import { authenticateSignIn } from "../services/authenticateSignIn.js"
+import { authenticateSignUp, authenticateSignIn } from "../services/userServices.js"
 
 async function signUp (req, res) {
     try {
