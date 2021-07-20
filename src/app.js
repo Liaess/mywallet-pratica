@@ -1,6 +1,5 @@
 import express from "express";
 import cors from "cors";
-import jwt from "jsonwebtoken";
 import { signUp, signIn } from "./controllers/userController.js";
 import { changeEvent, listFinancial, sumFinancials } from "./controllers/finalcial-events.js";
 
