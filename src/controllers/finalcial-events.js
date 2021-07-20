@@ -1,7 +1,7 @@
-import { checkToken } from "../services/checkToken";
-import { checkType } from "../services/checkType";
-import { createFinancial } from "../repositories/createFinancial";
-import { listAllFinancials } from "../repositories/listAllFinancials"
+import { checkToken } from "../services/checkToken.js";
+import { checkType } from "../services/checkType.js";
+import { createFinancial } from "../repositories/createFinancial.js";
+import { listAllFinancials } from "../repositories/listAllFinancials.js"
 
 async function changeEvent (req, res){
     try {

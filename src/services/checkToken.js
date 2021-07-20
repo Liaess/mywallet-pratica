@@ -1,3 +1,4 @@
+
 import jwt from "jsonwebtoken";
 async function checkToken(user, token){
     try {
